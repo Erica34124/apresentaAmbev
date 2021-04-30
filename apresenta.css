@@ -14,12 +14,58 @@ section{
   background-size: cover;
   background-position: center;
   position: relative;
+  text-align:center ;
+  
 }
+.color-yellow {
+    font-size: none;
+    color: rgb(179, 250, 12);
+}
+  .hero-text {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: rgb(179, 250, 12);
+    text-shadow: 2px 2px 5px rgba(0,0,0,2);
+    text-align: left;
+
+  }
+div{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  main, nav {
+    max-width: 1140px;
+    margin-left: 1%;
+    margin-right: auto;
+  }
+  
+  main {
+    margin-bottom: 64px;
+  }
+ nav li a {
+    float: left;
+    margin: 16px 16px 0px 16px;
+    font-size: large;
+    color:rgb(179, 250, 12);
+    bottom: 64px;
+    
+    
+  }
 footer{
-    background-color: rgb(179, 250, 12);
+    background-color: black;
     padding: 8px;
     text-align: center;
+    color:rgb(179, 250, 12);
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
