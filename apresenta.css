@@ -41,7 +41,7 @@ ul {
   a {
     text-decoration: none;
   }
-  main, nav {
+  main nav {
     max-width: 1140px;
     margin-left: 1%;
     margin-right: auto;
@@ -59,13 +59,58 @@ ul {
     
     
   }
+  footer img {
+    margin: 4px 4px 0px 4px;
+    float: left;
+  }
 footer{
-    background-color: black;
-    padding: 8px;
-    text-align: center;
+       
+    font-size: large;
     color:rgb(179, 250, 12);
     position: absolute;
     bottom: 0;
     width: 100%;
+    
+    
+}
+footer ul{
+    max-width: 1140px;
+    margin-left: 1%;
+    margin-right: auto;
+       
+}
+footer ul li a{
+    float: left;
+    margin: 16px 16px 0px 16px;
+    font-size: large;
+    color:rgb(179, 250, 12);
+    bottom: 64px;
+
 }
 
+    .icon-footer{
+        
+        width:25px;
+        height:auto ;
+        background:transparente;
+        }
+
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0,0,0, 0.2);
+            text-align: center;
+          }
+          
+         
+          
+          .card-container { 
+            
+            
+          }
+          
+          .card-col {
+            float: left;
+            padding: 8px ;
+            /* 100/3 = 33.33% */
+            width: 33.33%;
+          }
