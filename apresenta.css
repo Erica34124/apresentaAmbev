@@ -17,7 +17,7 @@ body h1{
      background-color:black ;
  }    
 
-section{
+.section{
   height: 480px;
   background-image: url(apresenta/boxe.jpg);
   background-repeat: no-repeat;
@@ -58,7 +58,7 @@ ul {
   }
   
   main {
-    margin-bottom: 64px;
+    padding: 64px;
   }
  nav li a {
     float: left;
@@ -163,4 +163,32 @@ footer ul li a{
         50%{
             opacity: 0;
             }
+        }
+        .branco{background-color: burlywood;}
+        .azul{background-color: rgb(73, 5, 199);}
+        .verde{background-color: rgb(19, 206, 50);}
+        .rosa{background-color: rgb(231, 35, 117);}
+        .amarelo{background-color: rgb(226, 188, 17);}
+        #container-b{
+          
+         
+          background-color: brown;
+          width:30%;
+         
+
+        }
+        #container-a{
+          background-color: blue;
+          width:60%;
+          
+
+          
+
+        }
+        .main{
+         
+         
+        height: 100px;
+        display:inline-block;
+        padding: 16px;
         }
