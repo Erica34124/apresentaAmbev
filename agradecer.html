@@ -18,7 +18,23 @@
 
 </head>
 <body class="cor">
-    <audio src="apresenta/Rag n Bone Man - Human (Official Video)_50k.mp3" autoplay ></audio>
+  <audio id="demo" src="apresenta/Rag n Bone Man - Human (Official Video)_50k.mp3"></audio>
+<div>
+  <button onclick="document.getElementById('demo').muted = true;">Mute</button>
+<!- ISTO ABAIXO É OPCIONAL->
+  <button onclick="document.getElementById('demo').play()" hidden>Reproduzir o áudio</button>
+  <button onclick="document.getElementById('demo').pause()" hidden>Pausar o áudio</button>
+  <button onclick="document.getElementById('demo').volume+=0.1" hidden>Aumentar o volume</button>
+  <button onclick="document.getElementById('demo').volume-=0.1" hidden>Diminuir o volume</button>
+</div>
+
+<!- ISTO EXECUTA O ÁUDIO AO ABRIR A PÁGINA->
+<script type="text/javascript">
+var v = document.getElementById('demo');
+v.play();
+</script>
+<div></div>
+    <audio src="apresenta/agradecimento.mp4" autoplay ></audio>
     <header >
      <main class="cor">      
       <nav>
