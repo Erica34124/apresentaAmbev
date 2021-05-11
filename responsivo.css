@@ -76,7 +76,7 @@
       }
     footer{
            
-        font-size: 100%;
+        font-size: 16px;
         color:rgb(179, 250, 12);
         position: relative;
         top: 100%;
@@ -88,16 +88,16 @@
     }
     footer ul{
         max-width: 300px;
-        margin-left: 1%;
+        margin-left: auto;
         margin-right: auto;
            
     }
     footer ul li a{
-        width: 100%;
+        max-width: 300px;
         float: left;
         display: block;
         margin: 0;
-        font-size: 100%;
+        font-size: 8px;
         color:rgb(179, 250, 12);
         bottom: 16px;
         border: 4px solid #fff;
