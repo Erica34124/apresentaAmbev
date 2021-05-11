@@ -147,9 +147,18 @@
     width: 45%;
     }
     .card-col {
-        width: 236px;
+        width: 172px;
         float: left;
-        padding: 8px 16px;
+        padding: 4px;
 
       }
+    
+    .card {
+        width: 150px;
+        box-shadow: 0 2px 4px rgba(0,0,0, 0.2);
+        text-align: center;
+        margin: 8px;
+      }
     }
+      
+     
