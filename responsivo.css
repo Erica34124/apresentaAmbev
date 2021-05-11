@@ -1,0 +1,8 @@
+//Estilo para tablet
+@media only screem and (min-width: 788px) and (max-width:979px){
+
+}
+//Estilo para smatphone
+@media only screem and (max-width: 787px) {
+    
+}
